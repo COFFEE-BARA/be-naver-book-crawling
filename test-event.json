@@ -5,7 +5,7 @@
       "EventName": "INSERT",
       "EventVersion": "1.1",
       "EventSource": "aws:dynamodb",
-      "AWSRegion": "us-west-2",
+      "AWSRegion": "ap-northeast-2",
       "DynamoDB": {
         "ApproximateCreationDateTime": 1514164960,
         "Keys": {
@@ -169,8 +169,8 @@
         "SizeBytes": 26,
         "StreamViewType": "NEW_IMAGE"
       },
-      "AwsRegion": "us-west-2",
-      "EventSourceARN": "arn:aws:dynamodb:us-west-2:123456789012:table/ExampleTableWithStream/stream/2020-10-02T19:06:23.944"
+      "AwsRegion": "ap-northeast-2",
+      "EventSourceARN": "arn:aws:dynamodb:ap-northeast-2:629515838455:table/smwu_team_04_kyobo_cate_code_time"
     }
   ]
 }
