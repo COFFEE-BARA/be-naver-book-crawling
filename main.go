@@ -459,7 +459,6 @@ func handler(ctx context.Context, event events.DynamoDBEvent) error {
 func main() {
 	//람다
 	lambda.Start(handler)
-
 	// //테스트~~~~~~~~~~~~~~
 	// // Read the test data file
 	// testData, err := os.Open("test-event.json")
