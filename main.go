@@ -17,6 +17,7 @@ import (
 
 	"github.com/PuerkitoBio/goquery"
 	"github.com/aws/aws-lambda-go/events"
+	"github.com/aws/aws-lambda-go/lambda"
 	"github.com/elastic/go-elasticsearch/v8"
 	"github.com/joho/godotenv"
 )
@@ -456,30 +457,30 @@ func handler(ctx context.Context, event events.DynamoDBEvent) error {
 }
 
 func main() {
-	// //람다
-	// lambda.Start(handler)
+	//람다
+	lambda.Start(handler)
 
-	//테스트~~~~~~~~~~~~~~
-	// Read the test data file
-	testData, err := os.Open("test-event.json")
+	// //테스트~~~~~~~~~~~~~~
+	// // Read the test data file
+	// testData, err := os.Open("test-event.json")
 
-	if err != nil {
-		fmt.Printf("failed to read test data file: %v", err)
-	}
-	defer testData.Close()
+	// if err != nil {
+	// 	fmt.Printf("failed to read test data file: %v", err)
+	// }
+	// defer testData.Close()
 
-	// Unmarshal the test data into the DynamoDBEvent type
-	var testEvent events.DynamoDBEvent
-	err = json.NewDecoder(testData).Decode(&testEvent)
-	if err != nil {
-		log.Fatalf("Error decoding test event JSON: %s", err)
-	}
+	// // Unmarshal the test data into the DynamoDBEvent type
+	// var testEvent events.DynamoDBEvent
+	// err = json.NewDecoder(testData).Decode(&testEvent)
+	// if err != nil {
+	// 	log.Fatalf("Error decoding test event JSON: %s", err)
+	// }
 
-	// Create a mock context
-	ctx := context.Background()
+	// // Create a mock context
+	// ctx := context.Background()
 
-	// Call your Lambda function handler with the test event and context
-	if err := handler(ctx, testEvent); err != nil {
-		fmt.Printf("handler returned error: %v", err)
-	}
+	// // Call your Lambda function handler with the test event and context
+	// if err := handler(ctx, testEvent); err != nil {
+	// 	fmt.Printf("handler returned error: %v", err)
+	// }
 }
