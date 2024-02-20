@@ -1,0 +1,176 @@
+{
+  "Records": [
+    {
+      "EventID": "1",
+      "EventName": "INSERT",
+      "EventVersion": "1.1",
+      "EventSource": "aws:dynamodb",
+      "AWSRegion": "us-west-2",
+      "DynamoDB": {
+        "ApproximateCreationDateTime": 1514164960,
+        "Keys": {
+          "Id": {
+            "S": "123456789"
+          }
+        },
+        "NewImage": {
+          "crawling_time": {
+            "N": "20240219"
+          },
+          "payload": {
+            "L": [
+              {
+                "M": {
+                  "cate": {
+                    "S": "Computer Engineering/Introduction to Science"
+                  },
+                  "recent_pub_date": {
+                    "S": "20240130"
+                  },
+                  "code": {
+                    "S": "330101"
+                  }
+                }
+              },
+              {
+                "M": {
+                  "cate": {
+                    "S": "Digital Device"
+                  },
+                  "recent_pub_date": {
+                    "S": "20230320"
+                  },
+                  "code": {
+                    "S": "332319"
+                  }
+                }
+              },
+              {
+                "M": {
+                  "cate": {
+                    "S": "Smartphone/Tablet"
+                  },
+                  "recent_pub_date": {
+                    "S": "20240215"
+                  },
+                  "code": {
+                    "S": "332323"
+                  }
+                }
+              },
+              {
+                "M": {
+                  "cate": {
+                    "S": "Architecture CAD"
+                  },
+                  "recent_pub_date": {
+                    "S": "20240115"
+                  },
+                  "code": {
+                    "S": "332501"
+                  }
+                }
+              },
+              {
+                "M": {
+                  "cate": {
+                    "S": "Design Program"
+                  },
+                  "recent_pub_date": {
+                    "S": "20231201"
+                  },
+                  "code": {
+                    "S": "332503"
+                  }
+                }
+              },
+              {
+                "M": {
+                  "cate": {
+                    "S": "CAD Certification"
+                  },
+                  "recent_pub_date": {
+                    "S": "20240208"
+                  },
+                  "code": {
+                    "S": "332505"
+                  }
+                }
+              },
+              {
+                "M": {
+                  "cate": {
+                    "S": "Office Automation"
+                  },
+                  "recent_pub_date": {
+                    "S": "20240216"
+                  },
+                  "code": {
+                    "S": "332801"
+                  }
+                }
+              },
+              {
+                "M": {
+                  "cate": {
+                    "S": "Information/Network/Security"
+                  },
+                  "recent_pub_date": {
+                    "S": "20240205"
+                  },
+                  "code": {
+                    "S": "332803"
+                  }
+                }
+              },
+              {
+                "M": {
+                  "cate": {
+                    "S": "Computerized Accounting/Tax"
+                  },
+                  "recent_pub_date": {
+                    "S": "20240122"
+                  },
+                  "code": {
+                    "S": "332805"
+                  }
+                }
+              },
+              {
+                "M": {
+                  "cate": {
+                    "S": "Graphics/Design"
+                  },
+                  "recent_pub_date": {
+                    "S": "20240315"
+                  },
+                  "code": {
+                    "S": "332807"
+                  }
+                }
+              },
+              {
+                "M": {
+                  "cate": {
+                    "S": "Other Qualifications"
+                  },
+                  "recent_pub_date": {
+                    "S": "20240220"
+                  },
+                  "code": {
+                    "S": "332809"
+                  }
+                }
+              }
+            ]
+          }
+        },
+        "SequenceNumber": "111",
+        "SizeBytes": 26,
+        "StreamViewType": "NEW_IMAGE"
+      },
+      "AwsRegion": "us-west-2",
+      "EventSourceARN": "arn:aws:dynamodb:us-west-2:123456789012:table/ExampleTableWithStream/stream/2020-10-02T19:06:23.944"
+    }
+  ]
+}
