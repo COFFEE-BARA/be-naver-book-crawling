@@ -11,25 +11,12 @@
 
 
 ## 📹 시연영상
-### AI 책 추천
-
-![챗봇](https://github.com/COFFEE-BARA/crawler-kyobo-isbn/assets/65851554/a28f0cca-ae1f-46b9-a087-6ea18216bd9d)
 
 
-<br/>
 
-
-### 책 검색 & 서점 재고 확인 & 대출 가능 도서관 확인
-
-![__-ezgif com-resize](https://github.com/COFFEE-BARA/crawler-kyobo-isbn/assets/65851554/699d09a6-8691-4ca0-bab5-575340a3c34d)
-
-
-<br/>
-
-
-### 키바나 통계보기
-
-![통계](https://github.com/COFFEE-BARA/crawler-kyobo-isbn/assets/65851554/d4ac2392-57ff-406f-b03e-334c932d56ce)
+| <img width="250" src="https://github.com/COFFEE-BARA/crawler-kyobo-isbn/assets/65851554/a28f0cca-ae1f-46b9-a087-6ea18216bd9d"> | <img width="250" src="https://github.com/COFFEE-BARA/crawler-kyobo-isbn/assets/65851554/699d09a6-8691-4ca0-bab5-575340a3c34d"> | <img width="250" src="https://github.com/COFFEE-BARA/crawler-kyobo-isbn/assets/65851554/d4ac2392-57ff-406f-b03e-334c932d56ce"> |
+| :---: | :---: | :---: |
+| AI 책 추천 | 책 검색 & 서점 재고 확인 & 대출 가능 도서관 확인 | 키바나 통계보기 |
 
 
 <br/>
