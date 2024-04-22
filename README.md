@@ -58,9 +58,9 @@
 
 ## smwu_team_04_kyobo_cate_code_time
 
-| crawling_time (PK) | static_number-crawling_time-index(SK) | payload |
+| static_number-crawling_time-index(PK) | crawling_time(SK) | payload |
 | --- | --- | --- |
-| 크롤링 시간 | 1 | 교보문고 카테고리 - 최신 책 출간일 리스트 |
+| 1 | 크롤링 시간 | 교보문고 카테고리 - 최신 책 출간일 리스트 |
 
 
 
